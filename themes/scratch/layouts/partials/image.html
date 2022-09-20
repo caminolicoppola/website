@@ -25,7 +25,13 @@
 {{ $imgSrcSetWebp = (delimit $imgSrcSetWebp ",") }}
 
 <picture>
-    <source type="image/webp" src="{{ $imgSrcWebp }}" srcset="{{ $imgSrcSetWebp }}">
-    <img src="{{ $imgSrc }}" srcset="{{ $imgSrcSet }}" width="400" height="auto" loading="{{ $loading }}">
+    <source type="image/webp"
+        srcset="{{ $imgSrcSetWebp }}">
+    
+    {{ if .width }}
+        <img src="{{ $imgSrc }}" srcset="{{ $imgSrcSet }}" width="{{ .width }}" height="{{ .height }}" loading="{{ $loading }}">
+    {{ else }}
+        <img src="{{ $imgSrc }}" srcset="{{ $imgSrcSet }}" width="400" height="auto" loading="{{ $loading }}">
+    {{ end }}
 </picture>
 
