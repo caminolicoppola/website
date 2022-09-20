@@ -1,0 +1,22 @@
+{{ define "main" }}
+  {{ range partial "featured.html" 1 }}
+
+    <div class="page--home">
+      <article>
+        <a href="{{ .RelPermalink }}" class="link">
+          <div class="gallery-container">
+            <div class="gallery-image">
+              {{ $featured_image := (.Resources.ByType "image").GetMatch "*featured*" }}
+              {{ if $featured_image }}
+                  {{ partial "image" (dict "Site" $.Site  "image" $featured_image ) }}
+              {{ end }}
+            </div>
+          </div>
+
+          <div class="feature-title">{{ .Title }}</div>
+        </a>
+      </article>
+    </div>
+
+  {{ end }}
+{{ end }}

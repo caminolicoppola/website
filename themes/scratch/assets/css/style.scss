@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+    font-family: 'Inter', Helvetica, Arial, Verdana, sans-serif;
+    font-feature-settings: "liga", "dlig";
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    line-height: 19px;
+    font-stretch: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.center {
+    text-align: center;
+    display: block;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #aaa;
+
+    &:hover {
+        color: black
+    }
+
+    &.active {
+        color: black;
+        font-weight: 500;
+    }
+}
+
+.main-menu {
+    display: flex;
+    padding: 24px 20px 22px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+label[for="menu"] {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    label[for="menu"] {
+        display: block;
+    }
+    
+    input#menu:checked + nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: white;
+        left: 0; top: 0;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+
+        .close-btn {
+            display: flex;
+            padding: 24px 20px 22px;
+            position: absolute;
+            width: calc(100% - 40px);
+            top: 0;
+        }
+
+        .main-menu--nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+
+            li {
+                margin-bottom: 2rem;
+                font-size: 1rem;
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.main-menu--home {
+    padding: 0;
+    margin-right: 60px;
+}
+
+.main-menu--nav {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu--nav-link {
+    padding: 0;
+    margin-right: 15px;
+}
+
+
+.main-content {
+    padding: 0;
+}
+
+// gallery
+.gallery-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: calc(100vh - 130px);
+    overflow-x: scroll;
+    // scroll-snap-type: x mandatory;
+    position: relative;
+
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+
+    /* Firefox */
+    &::-webkit-scrollbar {
+        display: none;
+        /* Safari and Chrome */
+    }
+}
+
+.gallery-image {
+    position: relative;
+    height: 100%;
+    width: 100vw;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.gallery-guide {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    z-index: 10;
+}
+
+.gallery-guide--left {
+    left: 0;
+    cursor: w-resize;
+    cursor: url(/arrow--left.svg) 1 25, w-resize;
+}
+
+.gallery-guide--right {
+    right: 0;
+    cursor: e-resize;
+    cursor: url(/arrow--right.svg) 1 25, e-resize;
+}
+
+// project page
+.project-info {
+    display: flex;
+    padding: 24px 20px 22px;
+
+    &.description {
+        max-width: 42rem;
+        padding-top: 0;
+        margin-top: -1rem;
+        opacity: .7;
+    }
+}
+
+// progetti
+.progetti {
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+
+    display: grid;
+    grid-gap: 4rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-auto-flow: row;
+
+    padding: 0 20px;
+    // width: 100%;
+
+    @media screen and (min-width: 640px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 6rem;
+    }
+
+    @media screen and (min-width: 1120px) {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 8rem;
+    }
+
+    @media screen and (min-width: 1600px) {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 8rem;
+    }
+
+    @media screen and (min-width: 2000px) {
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 8rem;
+    }
+}
+
+.progetto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    list-style-type: none;
+
+    width: 100%;
+
+    .progetto-img {
+        width: 100%;
+        height: 260px;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            position: absolute;
+            top: 0;
+        }
+    }
+
+    .link {
+        color: black;
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        display: block;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            visibility: hidden;
+        }
+
+        &:hover span {
+            visibility: visible;
+        }
+    }
+}
+
+.pages-content {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        margin-right: 4rem;
+
+        p {
+            max-width: 520px;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            margin-right: 2rem;
+        }
+    }
+
+    .text-column {
+        max-width: 500px;
+        padding: 1rem;
+    }
+}
+
+
+// persone
+.page--persone {
+    padding: 24px 20px 22px;
+
+    .enrico-and-paola {
+        display: flex;
+        gap: 1rem;
+
+        img {
+            width: 100%;
+            max-width: 12rem;
+        }
+    }
+
+    .two-columns {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 6rem;
+    }
+}
+
+// home
+.page--home {
+    .gallery-image {
+        height: 80%;
+    }
+
+    .feature-title {
+        margin-top: calc(-6vh + 1rem);
+        color: black;
+        text-align: center;
+        font-size: 1.25rem;
+    }
+}
+
+// utils
+.max-25 {
+    max-width: 25rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mr-6 {
+    margin-right: 6rem;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.abs-center {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-center {
+    text-align: center;
+}

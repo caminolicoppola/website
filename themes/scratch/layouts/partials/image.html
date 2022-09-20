@@ -1,0 +1,30 @@
+{{ $image := .image }}
+
+<!-- variables used for img tag -->
+{{ $imgSrc := "" }}
+{{ $imgSrcSet := slice }}
+{{ $imgSrcWebp := "" }}
+{{ $imgSrcSetWebp := slice }}
+{{ $set := $.Site.Params.imageSrcset }} <!-- config settings for sizes -->
+
+<!-- resize images converted to jpg -->
+{{ range $set }}
+    {{ $srcUrl := ($image.Resize (printf "%dx jpg" . )).RelPermalink }}
+    {{ if eq $imgSrc "" }}{{ $imgSrc = $srcUrl }}{{ end }}
+    {{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl .) }}
+{{ end }}
+{{ $imgSrcSet = (delimit $imgSrcSet ",") }}
+
+<!-- resize images converted to webp -->
+{{ range $set }}
+    {{ $srcUrlWebp := (printf "%dx webp" . | $image.Resize).RelPermalink }}
+    {{ if eq $imgSrcWebp "" }}{{ $imgSrcWebp = $srcUrlWebp }}{{ end }}
+    {{ $imgSrcSetWebp = $imgSrcSetWebp | append (printf "%s %dw" $srcUrlWebp .) }}
+{{ end }}
+{{ $imgSrcSetWebp = (delimit $imgSrcSetWebp ",") }}
+
+<picture>
+    <source type="image/webp" src="{{ $imgSrcWebp }}" srcset="{{ $imgSrcSetWebp }}">
+    <img src="{{ $imgSrc }}" srcset="{{ $imgSrcSet }}" width="400" height="auto" loading="lazy">
+</picture>
+

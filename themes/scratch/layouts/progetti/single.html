@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <article>
+    {{ $script := resources.Get "js/script-gallery.js" }}
+    <script defer language="javascript" type="text/javascript" src="{{ $script.RelPermalink }}"></script>
+
+    <div class="gallery-wrapper">
+      <div class="gallery-guide gallery-guide--left"></div>
+      <div class="gallery-container">
+        {{ with .Resources.ByType "image" }}
+        {{ range $image := . }}
+        <div class="gallery-image">{{ partial "image" (dict "Site" $.Site "image" $image ) }}</div>
+        {{ end }}
+        {{ end }}
+      </div>
+      <div class="gallery-guide gallery-guide--right"></div>
+    </div>
+
+    <header class="project-info">
+      <div>{{ .Title }} {{ with .Params.dataprogetto }} - {{ . }} {{ end }}</div>
+    </header>
+    <main class="project-info description">
+      <div>{{ .Content }}</div>
+    </main>
+
+  </article>
+{{ end }}

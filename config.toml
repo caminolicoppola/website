@@ -1,0 +1,31 @@
+baseURL = 'http://stu-cc.it/'
+languageCode = 'it-IT'
+title = 'Caminoli Coppola Architetti'
+theme = "scratch"
+paginate = '8'
+
+[menu]
+    [[menu.main]]
+    identifier = 'progetti'
+    name = 'Progetti'
+    title = 'progetti section'
+    url = '/progetti/'
+    weight = 2
+
+    [[menu.main]]
+    identifier = 'persone'
+    name = 'Persone'
+    title = 'persone section'
+    url = '/persone/'
+    weight = 3
+
+    [[menu.main]]
+    identifier = 'Contatti'
+    name = 'Contatti'
+    title = 'Contatti section'
+    url = '/Contatti/'
+    weight = 4
+
+
+[params]
+imageSrcset = [600, 2000]

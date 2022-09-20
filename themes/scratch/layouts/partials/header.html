@@ -1,0 +1,29 @@
+{{ $current := . }}
+
+<div class="main-menu">
+    <a href="{{ .Site.Home.RelPermalink }}" class="main-menu--home active">{{ .Site.Title }}</a>
+
+    <label for="menu" class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M3 18v-2h18v2Zm0-5v-2h18v2Zm0-5V6h18v2Z"/></svg></label>
+    <input type="checkbox" class="hidden" id="menu">
+   
+    <nav>
+        <div class="close-btn ">
+            <label for="menu" class="ml-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M6.4 19 5 17.6l5.6-5.6L5 6.4 6.4 5l5.6 5.6L17.6 5 19 6.4 13.4 12l5.6 5.6-1.4 1.4-5.6-5.6Z"/></svg>
+            </label>
+        </div>
+
+        <ul class="main-menu--nav">
+            {{ range .Site.Menus.main }}
+            {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+            {{ $active = or $active (eq .Name $current.Title) }}
+            {{ $active = or $active (and (eq .Name "Progetti") (eq $current.Section "progetti")) }}
+            {{ $active = or $active (and (eq .Name "Tags") (eq $current.Section "tags")) }}
+
+                <li class="main-menu--nav-link">
+                    <a href="{{ .URL }}" class="{{ if $active }}active{{ end }}">{{ .Name }}</a>
+                </li>
+            {{ end }}
+        </ul>
+    </nav>
+</div>
