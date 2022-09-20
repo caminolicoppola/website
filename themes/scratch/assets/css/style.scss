@@ -124,7 +124,8 @@ label[for="menu"] {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: calc(100vh - 130px);
+    height: calc(100vh - 130px); /* Fallback for browsers that do not support Custom Properties */
+    height: calc(calc(var(--vh, 1vh) * 100) - 130px);
     overflow-x: scroll;
     // scroll-snap-type: x mandatory;
     position: relative;

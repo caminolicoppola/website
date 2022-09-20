@@ -1,8 +1,8 @@
 {{ define "main" }}
-  <article>
-    {{ $script := resources.Get "js/script-gallery.js" }}
-    <script defer language="javascript" type="text/javascript" src="{{ $script.RelPermalink }}"></script>
+  {{ $script := resources.Get "js/script-gallery.js" }}
+  <script defer language="javascript" type="text/javascript" src="{{ $script.RelPermalink }}"></script>
 
+  <article>
     <div class="gallery-wrapper">
       <div class="gallery-guide gallery-guide--left"></div>
       <div class="gallery-container">

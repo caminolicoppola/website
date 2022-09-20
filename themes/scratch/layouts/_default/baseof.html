@@ -37,6 +37,9 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous">
     </script>
+
+    {{ $script := resources.Get "js/viewport-height.js" }}
+    <script defer language="javascript" type="text/javascript" src="{{ $script.RelPermalink }}"></script>
   </head>
 
   <body class=""> 
