@@ -14,6 +14,10 @@ a {
   color: black;
 }
 
+img:-moz-loading {
+  visibility: hidden;
+}
+
 .center {
   text-align: center;
   display: block;
@@ -40,6 +44,9 @@ a {
   padding: 24px 20px 22px;
   position: -webkit-sticky;
   position: sticky;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   top: 0;
   background-color: white;
   z-index: 100;
@@ -52,6 +59,7 @@ label[for="menu"] {
 @media screen and (max-width: 500px) {
   label[for="menu"] {
     display: block;
+    line-height: 0;
   }
   input#menu:checked + nav {
     display: -webkit-box;
@@ -104,6 +112,12 @@ label[for="menu"] {
     margin-bottom: 2rem;
     font-size: 1rem;
     margin-right: 0;
+  }
+  nav .main-menu--nav li a {
+    color: black;
+  }
+  nav .main-menu--nav li a.active {
+    font-weight: 500;
   }
 }
 
@@ -315,11 +329,16 @@ label[for="menu"] {
 }
 
 .progetto .link span {
-  visibility: hidden;
+  line-height: 2;
 }
 
-.progetto .link:hover span {
-  visibility: visible;
+@media screen and (pointer: fine) {
+  .progetto .link span {
+    visibility: hidden;
+  }
+  .progetto .link:hover span {
+    visibility: visible;
+  }
 }
 
 .pages-content {
@@ -389,6 +408,8 @@ label[for="menu"] {
 
 .page--home .gallery-image {
   height: 80%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .page--home .feature-title {

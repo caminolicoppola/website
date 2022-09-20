@@ -9,6 +9,9 @@
     <title>{{ .Site.Title }}</title>
     {{ partial "head/meta.html" . }}
 
+    <!-- TODO -->
+    <meta name="robots" content="noindex">
+
     <!-- Fonts -->
     <link rel="stylesheet" href="/inter.css">
 
@@ -33,9 +36,17 @@
 
     <!-- Scripts -->
     <script
+      defer
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous">
+    </script>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/swiped-events/1.1.6/swiped-events.min.js" 
+      integrity="sha512-AVWkE7WmKyUrLVDkwiGd1k2J/S6IDwbtRXP052gZu+M9V/BgLRBS5ZFHZ7qxlfIZ6SUcYR+8cIaD7vv7SwLjEg==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer">
     </script>
 
     {{ $script := resources.Get "js/viewport-height.js" }}

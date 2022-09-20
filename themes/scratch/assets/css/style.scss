@@ -13,6 +13,10 @@ a {
     color: black;
 }
 
+img:-moz-loading {
+    visibility: hidden;
+}
+
 .center {
     text-align: center;
     display: block;
@@ -36,6 +40,7 @@ a {
     display: flex;
     padding: 24px 20px 22px;
     position: sticky;
+    align-items: center;
     top: 0;
     background-color: white;
     z-index: 100;
@@ -48,6 +53,7 @@ label[for="menu"] {
 @media screen and (max-width: 500px) {
     label[for="menu"] {
         display: block;
+        line-height: 0;
     }
     
     input#menu:checked + nav {
@@ -87,6 +93,13 @@ label[for="menu"] {
                 margin-bottom: 2rem;
                 font-size: 1rem;
                 margin-right: 0;
+
+                a {
+                    color: black;
+                }
+                a.active {
+                    font-weight: 500;
+                }
             }
         }
     }
@@ -265,11 +278,17 @@ label[for="menu"] {
         align-items: center;
 
         span {
-            visibility: hidden;
+            line-height: 2;
         }
 
-        &:hover span {
-            visibility: visible;
+        @media screen and (pointer: fine) {
+            span {
+                visibility: hidden;
+            }
+    
+            &:hover span {
+                visibility: visible;
+            }
         }
     }
 }
@@ -328,6 +347,8 @@ label[for="menu"] {
 .page--home {
     .gallery-image {
         height: 80%;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .feature-title {
