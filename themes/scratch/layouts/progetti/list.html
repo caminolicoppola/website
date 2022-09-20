@@ -20,7 +20,7 @@
                             <div class="progetto-img">
                                 {{ $featured_image := (.Resources.ByType "image").GetMatch "*featured*" }}
                                 {{ if $featured_image }}
-                                    {{ partial "image" (dict "Site" $.Site  "image" $featured_image ) }}
+                                    {{ partial "image" (dict "Site" $.Site  "image" $featured_image "loading" "lazy" ) }}
                                 {{ end }}
                             </div>
 

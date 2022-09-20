@@ -7,9 +7,13 @@
       <div class="gallery-guide gallery-guide--left"></div>
       <div class="gallery-container">
         {{ with .Resources.ByType "image" }}
-        {{ range $image := . }}
-        <div class="gallery-image">{{ partial "image" (dict "Site" $.Site "image" $image ) }}</div>
-        {{ end }}
+          {{ range $index, $image := . }}
+            {{ if (eq $index 0) }}
+              <div class="gallery-image">{{ partial "image" (dict "Site" $.Site "image" $image "loading" "eager" ) }}</div>
+            {{ else }}
+              <div class="gallery-image">{{ partial "image" (dict "Site" $.Site "image" $image "loading" "lazy" ) }}</div>
+            {{ end }}
+          {{ end }}
         {{ end }}
       </div>
       <div class="gallery-guide gallery-guide--right"></div>

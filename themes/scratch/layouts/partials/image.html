@@ -1,4 +1,5 @@
 {{ $image := .image }}
+{{ $loading := .loading }}
 
 <!-- variables used for img tag -->
 {{ $imgSrc := "" }}
@@ -25,6 +26,6 @@
 
 <picture>
     <source type="image/webp" src="{{ $imgSrcWebp }}" srcset="{{ $imgSrcSetWebp }}">
-    <img src="{{ $imgSrc }}" srcset="{{ $imgSrcSet }}" width="400" height="auto" loading="lazy">
+    <img src="{{ $imgSrc }}" srcset="{{ $imgSrcSet }}" width="400" height="auto" loading="{{ $loading }}">
 </picture>
 
