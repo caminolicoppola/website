@@ -1,5 +1,5 @@
 ---
-title: "Podere San Paol \"Il Nespolo\""
+title: "Podere San Paolo \"Il Nespolo\""
 slug: "podere-san-paolo"
 weight: 10
 dataProgetto: "2006-2009"

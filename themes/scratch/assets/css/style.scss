@@ -25,22 +25,21 @@ img:-moz-loading {
       position: absolute;
       top: 50%;
       left: 50%;
-      margin-top: -30px;  
-      margin-left: -30px;
       width: 2rem;
       height: 2rem;
       border-radius: 50px;
       border: .25rem solid #f8f8f8;
       border-top-color: #ccc;
       animation: loading 1s ease-in-out infinite;
+      z-index: -1;
     }
   
     @keyframes loading {
         0% {
-            transform: rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg);
         }
         100% {
-            transform: rotate(360deg);
+            transform: translate(-50%, -50%) rotate(360deg);
         }
     }
 }
@@ -357,6 +356,7 @@ label[for="menu"] {
     .enrico-and-paola {
         display: flex;
         gap: 1rem;
+        min-height: 200px;
 
         img {
             width: 100%;

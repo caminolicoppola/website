@@ -2,12 +2,7 @@
     <meta name="description" content="{{ .Params.description }}"/>
 {{ end }}
 
-{{ if .Params.meta_title }}
-    <meta property="og:title" content="{{ .Params.meta_title }}"/>
-{{ else }}
-    <meta property="og:title" content="{{ .Title }}"/>
-{{ end }}
-
+<meta property="og:title" content="{{ .Site.Title }} | {{ .Title }}"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="{{ .Permalink }}"/>
 

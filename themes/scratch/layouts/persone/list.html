@@ -1,11 +1,15 @@
 {{ define "main" }}
     <div class="page--persone">
         <div class="enrico-and-paola mb-2">
-            {{ $enrico := (.Resources.ByType "image").GetMatch "*enrico*" }}
-            {{ partial "image" (dict "Site" $.Site  "image" $enrico "loading" "eager" "width" "192" "height" "212" ) }}
-    
-            {{ $paola := (.Resources.ByType "image").GetMatch "*paola*" }}
-            {{ partial "image" (dict "Site" $.Site  "image" $paola "loading" "eager" "width" "192" "height" "212" ) }}    
+            <!-- <div class="img-loading"> -->
+                {{ $enrico := (.Resources.ByType "image").GetMatch "*enrico*" }}
+                {{ partial "image" (dict "Site" $.Site  "image" $enrico "loading" "eager" "width" "192" "height" "212" ) }}    
+            <!-- </div> -->
+            
+            <!-- <div class="img-loading"> -->
+                {{ $paola := (.Resources.ByType "image").GetMatch "*paola*" }}
+                {{ partial "image" (dict "Site" $.Site  "image" $paola "loading" "eager" "width" "192" "height" "212" ) }}   
+            <!-- </div>  -->
         </div>
 
         <div class="two-columns">
