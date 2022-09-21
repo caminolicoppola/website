@@ -10,9 +10,9 @@
           {{ range $index, $image := . }}
             {{ if not (in .Name "hidden" ) }}
               {{ if (eq $index 0) }}
-                <div class="gallery-image">{{ partial "image" (dict "Site" $.Site "image" $image "loading" "eager" ) }}</div>
+                <div class="gallery-image img-loading">{{ partial "image" (dict "Site" $.Site "image" $image "loading" "eager" ) }}</div>
               {{ else }}
-                <div class="gallery-image">{{ partial "image" (dict "Site" $.Site "image" $image "loading" "lazy" ) }}</div>
+                <div class="gallery-image img-loading">{{ partial "image" (dict "Site" $.Site "image" $image "loading" "lazy" ) }}</div>
               {{ end }}
             {{ end }}
           {{ end }}

@@ -16,14 +16,16 @@ $( document ).ready(function() {
     $('.gallery-guide--right').click(goRight);
     $('.gallery-guide--left').click(goLeft);
 
+    $(document).on('swiped-left', $container, function() {goRight()})
+    $(document).on('swiped-right', $container, function() {goLeft()})
+
     function goLeft() {
         $container.stop(true,true); //complete any animation still running  
         var $newLeft = $container.position().left+(1*$imgWidth);//calculate the new position which is the current position plus the width of one image
         $container.animate({'left':$newLeft+'px'}, 300, function(){//slide to the new position
-            if (Math.abs($newLeft) == (0)) //if the slider is displaying the first image, which is the clone of the last image
-                {
+            if (Math.abs($newLeft) == (0)) { //if the slider is displaying the first image, which is the clone of the last image
                 $container.css({'left':-($imgCount)*$imgWidth+'px'});//reset the slider back to the last image without animating 
-                }
+            }
         });
         return false;
     }

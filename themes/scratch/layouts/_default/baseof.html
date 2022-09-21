@@ -51,8 +51,13 @@
       crossorigin="anonymous" referrerpolicy="no-referrer">
     </script>
 
+    {{ $images_script := resources.Get "js/load-images.js" }}
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script defer language="javascript" type="text/javascript" src="{{ $images_script.RelPermalink }}"></script>
+
     {{ $script := resources.Get "js/viewport-height.js" }}
     <script defer language="javascript" type="text/javascript" src="{{ $script.RelPermalink }}"></script>
+
   </head>
 
   <body class=""> 

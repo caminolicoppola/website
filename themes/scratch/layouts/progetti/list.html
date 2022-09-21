@@ -17,7 +17,7 @@
 
                     <li class="progetto">
                         <a href="{{ .RelPermalink }}" class="link">
-                            <div class="progetto-img">
+                            <div class="progetto-img img-loading">
                                 {{ $featured_image := (.Resources.ByType "image").GetMatch "*featured*" }}
                                 {{ if $featured_image }}
                                     {{ partial "image" (dict "Site" $.Site  "image" $featured_image "loading" "lazy" ) }}
