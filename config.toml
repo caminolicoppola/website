@@ -28,4 +28,4 @@ paginate = '8'
 
 
 [params]
-imageSrcset = [600, 2000]
+imageSrcset = [320, 640, 1280, 1600, 2000, 3000]
