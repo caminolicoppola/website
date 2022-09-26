@@ -1,10 +1,12 @@
+$menu-bp: 540px;
+
 body {
     margin: 0;
     font-family: 'Inter', Helvetica, Arial, Verdana, sans-serif;
     font-feature-settings: "liga", "dlig";
     -webkit-font-smoothing: antialiased;
-    font-size: 13px;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 23px;
     font-stretch: 100%;
 }
 
@@ -44,6 +46,21 @@ img:-moz-loading {
     }
 }
 
+.img--full-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    img {
+        object-fit: cover!important;
+        width: 100%;
+        height: 100%;
+        object-position: top right;
+    }
+}
+
 .center {
     text-align: center;
     display: block;
@@ -71,13 +88,29 @@ img:-moz-loading {
     top: 0;
     background-color: white;
     z-index: 100;
+
+    &.transparent {
+        background-color: transparent;
+
+        a {
+            color: #ccc;
+
+            &.active {
+                color: white;
+            }
+        }
+    }
 }
 
 label[for="menu"] {
     display: none;
 }
 
-@media screen and (max-width: 500px) {
+div:not(.close-btn).transparent > label[for='menu'] {
+    svg {fill: white;}
+}
+
+@media screen and (max-width: $menu-bp) {
     label[for="menu"] {
         display: block;
         line-height: 0;
@@ -123,6 +156,10 @@ label[for="menu"] {
 
                 a {
                     color: black;
+
+                    .transparent & {
+                        color: black;
+                    }
                 }
                 a.active {
                     font-weight: 500;
@@ -372,6 +409,41 @@ label[for="menu"] {
     }
 }
 
+// contatti
+.contatti-grid {
+    margin: 0 20px;
+    padding: 20px 0;
+    border-top: 2px solid #444;
+
+    // display: grid;
+    // grid-template-columns: auto auto;
+    // grid-template-rows: auto auto;
+}
+
+.contatti-text {
+    display: block;
+    max-width: 20rem;
+    p {margin: 0;}
+}
+
+.contatti-img {
+    img {
+        width: 100%;
+        margin: 4rem auto;
+        display: block;
+    }
+
+    @media screen and (min-width: 1000px) {
+        margin-left: 20rem;
+
+        img {
+            width: 80%;
+            margin: 4rem auto;
+            display: block;
+        }
+    }
+
+}
 // home
 .page--home {
     .gallery-image {

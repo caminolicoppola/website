@@ -1,3 +1,11 @@
 {{ define "main" }}
-    <div class="abs-center text-center">{{ .Content }}</div>
+<div class="contatti-grid">
+    <div class="contatti-text">{{ .Content }}</div>
+    <div class="contatti-img">
+        {{ $studio_image := (.Resources.ByType "image").GetMatch "*studio*" }}
+        {{ if $studio_image }}
+            {{ partial "image" (dict "Site" $.Site  "image" $studio_image "loading" "eager" ) }}
+        {{ end }}
+    </div>
+</div>
 {{ end }}
