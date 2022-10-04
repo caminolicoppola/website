@@ -1,8 +1,9 @@
-baseURL = 'http://stu-cc.it/'
+baseURL = 'https://www.caminolicoppola.com/'
 languageCode = 'it-IT'
 title = 'Caminoli Coppola Architetti'
 theme = "scratch"
 paginate = '8'
+disableKinds = 'sitemap'
 
 [menu]
     [[menu.main]]
