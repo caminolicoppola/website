@@ -5,6 +5,10 @@ weight: 5
 dataProgetto: "2013-2018"
 luogoProgetto: "Capannori (LU)"
 copyrightFotoProgetto: ""
+links:
+- link:
+    href: https://www.premio-architettura-toscana.it/author/studiostudiocaminolicoppola-it/
+    name: Premio Architettura Toscana
 ---
 La casa esistente è stata costruita nel 1900 senza un carattere particolare ma come semplice casa in linea secondo la tradizione locale.
 Posizionata all’interno di una conca naturale e adagiata su una piana molto larga e comoda. A poca distanza dalla casa il fienile, a poca distanza dal fienile la rimessa agricola.

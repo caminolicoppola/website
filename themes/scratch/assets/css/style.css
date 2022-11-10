@@ -319,8 +319,8 @@ div:not(.close-btn).transparent > label[for='menu'] svg {
 }
 .related-links a {
   display: block;
-  color: blue;
   margin-bottom: .5rem;
+  text-decoration: underline;
 }
 
 .progetti {

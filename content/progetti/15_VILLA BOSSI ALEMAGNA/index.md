@@ -5,6 +5,16 @@ weight: 10
 dataProgetto: "2010"
 luogoProgetto: "Azzate, Varese"
 copyrightFotoProgetto: "Voytek Ketz"
+links:
+- link:
+    href: https://www.thetimes.co.uk/article/home-la-dolce-villa-7f7qfnbdt
+    name: The Times
+- link:
+    href: https://www.elledecor.com/it/viaggi/a30716216/villa-berla-azzate-foto/
+    name: Elle Decor
+- link:
+    href: https://thespaces.com/lombardys-opulent-villa-berla-is-for-sale-for-e2-75m/
+    name: The Spaces
 ---
 La villa Bossi Alemagna è una delle ville storiche di Azzate, è una villa del 1600 probabilmente di impianto conventuale. Alcuni affreschi di notevole fattura si trovano nelle stanze del piano terreno e del primo piano.
 La villa è stata restaurata radicalmente con il consolidamento di tutti i solai, l’inserimento del riscaldamento a pavimento, e la ristrutturazione radicale delle parti laterali.
