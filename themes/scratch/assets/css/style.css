@@ -305,6 +305,7 @@ div:not(.close-btn).transparent > label[for='menu'] svg {
   padding-top: 0;
   margin-top: -1rem;
   opacity: .7;
+  display: inline-block;
 }
 
 .related-links {
