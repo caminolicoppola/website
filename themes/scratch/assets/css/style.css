@@ -307,6 +307,21 @@ div:not(.close-btn).transparent > label[for='menu'] svg {
   opacity: .7;
 }
 
+.related-links {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 1rem;
+}
+
+.related-links p {
+  margin-top: 0;
+}
+.related-links a {
+  display: block;
+  color: blue;
+  margin-bottom: .5rem;
+}
+
 .progetti {
   display: -ms-grid;
   display: grid;
