@@ -1,5 +1,5 @@
 ---
-title: 'Contatti'
+title: 'Contacts'
 ---
 Studio di Architettura
 
