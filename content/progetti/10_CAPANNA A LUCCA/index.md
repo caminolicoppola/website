@@ -2,7 +2,7 @@
 title: "Hut in Lucca"
 slug: 'capanna-lucca'
 weight: 2
-dataProgetto: "2021 - in costruzione"
+dataProgetto: "2021 - under costruction"
 luogoProgetto: "Lucca"
 copyrightFotoProgetto: ""
 links:
