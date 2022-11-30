@@ -6,9 +6,9 @@ dataProgetto: "2004-2007"
 luogoProgetto: "Capannori (LU)"
 copyrightFotoProgetto: ""
 ---
-La palazzina di Vestri è una costruzione in linea, in lunghezza che nasce con ogni probabilità come Palazzina di Caccia essendo nella posizione ideale di essere posizionata nella parte finale della campagna coltivata a ridosso della montagna delle Pizzorne.
-E’ sicuramente una costruzione molto antica che risale verso al 1300/1400; prima dei lavori era in buone condizioni strutturali ma le murature, originariamente intasane con molte e rivestite con intonaco erano molto svuotate e compromesse.
-Il lavoro è stato principalmente un recupero dell’esistente, dei materiali esistenti, cotto, pietre, legno, ferro.
-All’esterno un piccolo giardino disegnato da Peter Hessel (Amsterdam) con la fontana in pietra al centro.
-La Piscina in tesserino di vetro Bisazza nero antracite si inserisce nel paesaggio con un colore verde blu senza stonare con la gamma dei verdi esistenti.
-Una piccola pergola ad imbuto accompagna la salita dal basso per arrivare alla piscina e poi alla casa.
+The Palazzina di Vestri is a linear, lengthwise construction which was probably originally built as a hunting lodge, being in the perfect location, i.e., in the final part of the cultivated countryside, close to the Pizzorne mountain.
+It is certainly a very ancient construction dating back to around 1300/1400; before the works the building was in good structural condition but the walls, originally covered with plaster, were very hollow and compromised.
+The work was mainly a recovery of the existing structure, existing materials such as terracotta elements, stones, wood, iron.
+Outside, there is a small garden designed by Peter Hessel (Amsterdam) with the stone fountain located in the center.
+The Bisazza black anthracite glass tile pool fits into the landscape with a blue green color, without clashing with the existing range of greens.
+A small funnel-shaped pergola accompanies the climb from the bottom to the pool and then to the house.

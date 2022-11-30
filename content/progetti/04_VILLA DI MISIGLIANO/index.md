@@ -1,10 +1,10 @@
 ---
-title: "Villa di Misigliano"
+title: "Misigliano Villa"
 weight: 14
 slug: 'villa-misigliano'
 dataProgetto: "1990-2006"
 luogoProgetto: "Camaiore (LU)"
 copyrightFotoProgetto: "Serim Lucca s.r.l."
 ---
-La villa di Misigliano è un complesso edilizio monumentale nel comune di Camaiore che è composto dal complesso della villa e dal borgo adiacente. I lavori sono iniziati dalla ristrutturazione delle 7 case del borgo per continuare alla villa e alle 4 case che sono al suo interno. La villa e i suoi giardini risalgono ad un impianto settecentesco; il livello delle cantine della villa è un lungo percorso esterno che è un elemento ordinatore di tutto il complesso. Questo percorso ne genera anche altri che danno alla villa una ricchezza di punti di vista interni e verso valle.
-La parte principale della villa padronale, soprannominata Castello, è di epoca alto medioevale ed è stata rimaneggiata più volte nel tempo.
+The Misigliano Villa is a monumental building complex in the municipality of Camaiore, composed of the villa complex and the adjacent village. Work began with the renovation of the seven houses of the village and then continued to the villa and the four houses that are inside it. The villa and its gardens date back to an eighteenth-century construction; the cellar level of the villa is a long external pathway and is an element that brings a sense of order to the whole complex. This pathway also generates others that give the villa different points of view both inside the complex and towards the valley.
+The main part of the manor house, nicknamed Castello -Castle-, dates back to the early medieval period and has been remodeled several times over time.

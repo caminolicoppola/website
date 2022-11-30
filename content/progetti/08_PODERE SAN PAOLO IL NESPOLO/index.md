@@ -5,9 +5,12 @@ weight: 10
 dataProgetto: "2006-2009"
 luogoProgetto: "Agliati, Palaia (PI)"
 copyrightFotoProgetto: "Luca Lupi"
+links:
+- link:
+    href: https://www.archilovers.com/projects/308211/podere-san-paolo-il-nespolo.html
+    name: Archilovers
 ---
-Questo podere è composto da due case, una, quella principale e una minore, non molto distante; ambedue utilizzano una grande piscina panoramica.
-La casa principale è in cima ad un colle con una vista panoramica completa ed è stato oggetto di una ristrutturazione radicale.
-Si è stabilito di creare con la scala il cuore distributivo della casa in modo da liberare tutti gli affacci a favore delle stanze e dei bagni.
-D’altra parte la scala diventava così importante che non poteva essere un elemento di mera distribuzione ed è diventata così un crocevia per tutti gli abitanti della casa,
-una biblioteca, una piccola aula didattica.
+This farm consists of two houses, the main one and a smaller one not far away; both are equipped with a large panoramic pool.
+The main house is located on top of a hill with a complete panoramic view and has undergone a radical renovation.
+It was decided to create the distributive heart of the house with the staircase so as to free all the overlooks in favor of the rooms and bathrooms.
+In addition, the staircase became so important that it could not be an element of mere distribution and thus became a crossroads for all the inhabitants of the house, a library, a small teaching room.

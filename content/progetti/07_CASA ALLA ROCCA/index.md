@@ -5,8 +5,12 @@ weight: 8
 dataProgetto: "2016-2021"
 luogoProgetto: "Arsina (LU)"
 copyrightFotoProgetto: ""
+links:
+- link:
+    href: https://www.archilovers.com/projects/308363/casa-la-rocca.html
+    name: Archilovers
 ---
-Questa casa sulle colline di Lucca rappresenta il consolidamento e la trasformazione di un edificio esistente ma comprende anche un ampliamento di circa 50 mq su due piani.
-Al primo piano una loggia verso sud ed un portico verso nord si aggiungono all’ampliamento. Questi due elementi sono costruiti con un carattere “rurale” e un pò vernacolare usando 
-Pilastri massicci e architravi in legno. La parte posteriore della casa è stata risanata e staccata dal monte in modo tale da facilitare il collegamento con la piscina, con l’interno della casa al primo piano e la nuova terrazza.
-L’area della piscina ha una vista completamente aperta sulla piana di Lucca e ha come fondale visivo proprio le sue torri.
+This house on the hills of Lucca represents the consolidation and transformation of an existing building, but it also includes an extension of about 50 square meters on two floors. 
+On the first floor a loggia to the south and a porch to the north have been added to the expansion.
+These two elements are built with a "rural" and somewhat vernacular character using massive pillars and wooden lintels. The rear part of the house has been restored and detached from the mountain so as to facilitate the connection with the pool, with the inside of the house on the first floor and the new terrace.
+The pool area has a completely open view of the plain of Lucca, with its towers as the main panorama.

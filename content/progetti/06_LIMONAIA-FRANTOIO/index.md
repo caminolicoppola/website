@@ -6,5 +6,4 @@ dataProgetto: "2004-2006"
 luogoProgetto: "Arsina (LU)"
 copyrightFotoProgetto: ""
 ---
-Questo edificio era il frantoio della villa Miralunga ed ora è stato adibito ad abitazione. E’ stata una ristrutturazione radicale con lavori di consolidamento della struttura. Alcuni reperti del lavoro del frantoio sono stati mantenuti, la macina e la pressa che è stata trasformata nel camino della sala.
-Questa costruzione è parte terminale del disegno del giardino della villa perché chiude il giardino nella estremità est.
+This building was the oil mill of Miralunga Villa and has now been designated as a dwelling. It was a radical renovation with consolidation works on the structure. Some artifacts from the oil mill have been preserved, such as the millstone and the press, which has been turned into the hall fireplace. This building is the final part of the villa’s garden design because it closes the garden in the east end.
