@@ -7,23 +7,23 @@ disableKinds = 'sitemap'
 
 [menu]
     [[menu.main]]
-    identifier = 'progetti'
-    name = 'Progetti'
-    title = 'progetti section'
+    identifier = 'Projects'
+    name = 'Projects'
+    title = 'projects section'
     url = '/progetti/'
     weight = 2
 
     [[menu.main]]
-    identifier = 'persone'
-    name = 'Persone'
-    title = 'persone section'
+    identifier = 'People'
+    name = 'People'
+    title = 'people section'
     url = '/persone/'
     weight = 3
 
     [[menu.main]]
-    identifier = 'Contatti'
-    name = 'Contatti'
-    title = 'Contatti section'
+    identifier = 'Contacts'
+    name = 'Contacts'
+    title = 'Contacts section'
     url = '/Contatti/'
     weight = 4
 

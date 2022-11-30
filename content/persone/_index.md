@@ -1,5 +1,5 @@
 ---
-Title: 'Persone'
+Title: 'People'
 ---
 The following Professionals are currently collaborating with our Studio:
 - Arch. Gioele Frateschi

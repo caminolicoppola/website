@@ -17,7 +17,7 @@
             {{ range .Site.Menus.main }}
             {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
             {{ $active = or $active (eq .Name $current.Title) }}
-            {{ $active = or $active (and (eq .Name "Progetti") (eq $current.Section "progetti")) }}
+            {{ $active = or $active (and (eq .Name "Projects") (eq $current.Section "progetti")) }}
             {{ $active = or $active (and (eq .Name "Tags") (eq $current.Section "tags")) }}
 
                 <li class="main-menu--nav-link">
