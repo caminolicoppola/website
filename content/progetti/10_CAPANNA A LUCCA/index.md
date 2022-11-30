@@ -1,11 +1,15 @@
 ---
-title: "Capanna a Lucca"
+title: "Hut in Lucca"
 slug: 'capanna-lucca'
 weight: 2
 dataProgetto: "2021 - in costruzione"
 luogoProgetto: "Lucca"
 copyrightFotoProgetto: ""
+links:
+- link:
+    href: https://www.archilovers.com/projects/307715/capanna-a-lucca.html
+    name: Archilovers
 ---
-Questo piccolo edificio agricolo, ex stalle al piano terreno e fienile al primo piano è stato trasformato in un’abitazione privata. Da una parte la restituzione dell’edificio esistente nei suoi caratteri dell’architettura vernacolare Lucchese tipici degli edifici della Piana e della prima collina, dall’altra l’occasione di poter fare un piccolo ampliamento.
-Una piccola entrata separa la capanna esistente dall’ampliamento. La forma di questo per evitare un volume tozzo (è alla fin fine un piccolo volume aggiunto) lo abbiamo ristretto, allungato, abbassato in testa in modo che risultasse come un volume puro, indipendente, astorico, un volume un po' futurista, in movimento per stimolare la fissità della classificazione tipologica.
-Il piccolo edificio ad imbuto è rivestito completamente in mezzane di recupero 2.5 cmx 28 con una miscela di malte naturali; anche la copertura, leggermente inclinata, è in mezzane come su una terrazza.
+This small agricultural building, formerly composed of a stable on the ground floor and a barn on the second floor, has been transformed into a private residence. On the one hand, the restoration of the existing building respected and reproduced the characteristics of the Lucca vernacular architecture typical of the buildings of the Plain and the first hill; on the other, the opportunity to make a small extension was exploited.
+A small entrance separates the existing hut from the extension. To avoid an oppressing volume (it is ultimately a small added volume) the extension was reduced, elongated, lowered at the head so that it would result as a pure, independent, ahistorical, and somewhat futuristic volume to stimulate the rigidity of the typological classification.
+The small funnel-shaped building is completely covered with recycled 2.5cm x 28cm tiles with a mixture of natural mortars; even the roof, slightly inclined, is made of tiles as on the terrace.

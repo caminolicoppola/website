@@ -24,9 +24,19 @@
     <header class="project-info">
       <div>{{ .Title }} {{ with .Params.dataprogetto }} - {{ . }} {{ end }}</div>
     </header>
+
     <main class="project-info description">
       <div>{{ .Content }}</div>
     </main>
+    
+    {{ with .Params.links }} 
+    <div class="related-links">
+      <p>Project published on</p>
+      {{ range . }} 
+        <a href="{{ .link.href }}" target="_blank">{{ .link.name }}</a>
+      {{ end }} 
+    </div>
+    {{ end }}
 
   </article>
 {{ end }}
