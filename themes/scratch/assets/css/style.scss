@@ -89,6 +89,8 @@ img:-moz-loading {
     background-color: white;
     z-index: 100;
 
+    a {flex-shrink: 0;}
+
     &.transparent {
         background-color: transparent;
 
@@ -108,6 +110,11 @@ label[for="menu"] {
 
 div:not(.close-btn).transparent > label[for='menu'] {
     svg {fill: white;}
+}
+
+nav { 
+    display: flex;
+    width: 100%;
 }
 
 @media screen and (max-width: $menu-bp) {
@@ -166,6 +173,10 @@ div:not(.close-btn).transparent > label[for='menu'] {
                 }
             }
         }
+
+        .main-menu--nav.languages {
+            top: 75%;
+        }
     }
 }
 
@@ -184,8 +195,15 @@ div:not(.close-btn).transparent > label[for='menu'] {
 .main-menu--nav-link {
     padding: 0;
     margin-right: 15px;
+
+    &:last-of-type {
+        margin-right: 0;
+    }
 }
 
+.main-menu--nav.languages {
+    margin-left: auto;
+}
 
 .main-content {
     padding: 0;
