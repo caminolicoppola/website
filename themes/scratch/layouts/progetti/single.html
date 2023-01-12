@@ -31,7 +31,7 @@
     
     {{ with .Params.links }} 
     <div class="related-links">
-      <p>Project published on</p>
+      <p>{{ i18n "relatedLinks" . }}</p>
       {{ range . }} 
         <a href="{{ .link.href }}" target="_blank">{{ .link.name }}</a>
       {{ end }} 

@@ -1,7 +1,7 @@
 ---
 title: 'Contacts'
 ---
-Studio di Architettura
+Architecture Firm
 
 Piazza San Pietro in Somaldi 15 
 

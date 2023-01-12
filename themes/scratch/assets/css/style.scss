@@ -284,6 +284,7 @@ nav {
         padding-top: 0;
         margin-top: -1rem;
         opacity: .7;
+        display: inline-block;
     }
 }
 
@@ -373,6 +374,21 @@ nav {
             }
         }
     }
+}
+
+.related-links {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1rem;
+  }
+  
+.related-links p {
+    margin-top: 0;  
+}
+.related-links a {
+    display: block;
+    margin-bottom: .5rem;
+    text-decoration: underline;
 }
 
 .pages-content {

@@ -9,25 +9,26 @@ defaultContentLanguageInSubdir = 'false'
   [languages.it]
     weight = 1
     title = 'Caminoli Coppola Architetti'
+    description = "Lo studio Caminoli Coppola inizia nel 1998 la collaborazione, dedicandosi alla ristrutturazione e al consolidamento di edifici storici come ville, masserie, case coloniche, palazzine. Negli anni più recenti lo studio si è dedicato anche a nuove costruzioni, principalmente in Toscana ed in Puglia."
     languageCode = 'it-IT'
     languageName = 'Italiano'
     [languages.it.menu]
       [[languages.it.menu.main]]
-      identifier = 'Projects'
+      identifier = 'Progetti'
       name = 'Progetti'
       title = 'sezione progetti'
       url = '/progetti/'
       weight = 2
 
       [[languages.it.menu.main]]
-      identifier = 'People'
+      identifier = 'Persone'
       name = 'Persone'
       title = 'sezione persone'
       url = '/persone/'
       weight = 3
 
       [[languages.it.menu.main]]
-      identifier = 'Contacts'
+      identifier = 'Contatti'
       name = 'Contatti'
       title = 'sezione contatti'
       url = '/contatti/'
@@ -36,6 +37,7 @@ defaultContentLanguageInSubdir = 'false'
   [languages.en]
     weight = 2
     title = 'Caminoli Coppola Architects'
+    description = "The Caminoli Coppola Architecture firm was founded in 1998, when a collaboration began concerning the renovation and consolidation of some historical buildings such as villas, farms, farmhouses, mansions, etc."
     languageCode = 'en'
     languageName = 'English'
     [languages.en.menu]
@@ -63,4 +65,3 @@ defaultContentLanguageInSubdir = 'false'
 
 [params]
 imageSrcset = [320, 640, 1280, 1600, 2000, 3000]
-description = "Lo studio Caminoli Coppola inizia nel 1998 la collaborazione, dedicandosi alla ristrutturazione e al consolidamento di edifici storici come ville, masserie, case coloniche, palazzine. Negli anni più recenti lo studio si è dedicato anche a nuove costruzioni, principalmente in Toscana ed in Puglia."
