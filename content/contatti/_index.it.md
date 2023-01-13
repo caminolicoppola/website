@@ -1,0 +1,21 @@
+---
+title: 'Contatti'
+---
+Studio di Architettura
+
+Piazza San Pietro in Somaldi 15 
+
+55100, Lucca, Italia 
+
+{{< rawhtml >}}
+    <br>
+    <a href="javascript:location='mailto:\u0073\u0074\u0075\u0064\u0069\u006f\u0040\u0073\u0074\u0075\u0064\u0069\u006f\u0063\u0061\u006d\u0069\u006e\u006f\u006c\u0069\u0063\u006f\u0070\u0070\u006f\u006c\u0061\u002e\u0069\u0074';void 0">
+    <script type="text/javascript">document.write('\u0073\u0074\u0075\u0064\u0069\u006f\u0040\u0073\u0074\u0075\u0064\u0069\u006f\u0063\u0061\u006d\u0069\u006e\u006f\u006c\u0069\u0063\u006f\u0070\u0070\u006f\u006c\u0061\u002e\u0069\u0074')</script>
+    </a>
+{{< /rawhtml >}}
+
+enrico.caminoli@studiocaminolicoppola.it
+
+paola.coppola@studiocaminolicoppola.it
+
+0583 923530

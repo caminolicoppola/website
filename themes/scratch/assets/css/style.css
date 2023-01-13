@@ -110,6 +110,11 @@ img:-moz-loading {
   z-index: 100;
 }
 
+.main-menu a {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
 .main-menu.transparent {
   background-color: transparent;
 }
@@ -128,6 +133,13 @@ label[for="menu"] {
 
 div:not(.close-btn).transparent > label[for='menu'] svg {
   fill: white;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
 }
 
 @media screen and (max-width: 540px) {
@@ -196,6 +208,9 @@ div:not(.close-btn).transparent > label[for='menu'] svg {
   nav .main-menu--nav li a.active {
     font-weight: 500;
   }
+  nav .main-menu--nav.languages {
+    top: 75%;
+  }
 }
 
 .main-menu--home {
@@ -215,6 +230,14 @@ div:not(.close-btn).transparent > label[for='menu'] svg {
 .main-menu--nav-link {
   padding: 0;
   margin-right: 15px;
+}
+
+.main-menu--nav-link:last-of-type {
+  margin-right: 0;
+}
+
+.main-menu--nav.languages {
+  margin-left: auto;
 }
 
 .main-content {
@@ -306,21 +329,6 @@ div:not(.close-btn).transparent > label[for='menu'] svg {
   margin-top: -1rem;
   opacity: .7;
   display: inline-block;
-}
-
-.related-links {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 1rem;
-}
-
-.related-links p {
-  margin-top: 0;
-}
-.related-links a {
-  display: block;
-  margin-bottom: .5rem;
-  text-decoration: underline;
 }
 
 .progetti {
@@ -432,6 +440,22 @@ div:not(.close-btn).transparent > label[for='menu'] svg {
   .progetto .link:hover span {
     visibility: visible;
   }
+}
+
+.related-links {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 1rem;
+}
+
+.related-links p {
+  margin-top: 0;
+}
+
+.related-links a {
+  display: block;
+  margin-bottom: .5rem;
+  text-decoration: underline;
 }
 
 .pages-content {

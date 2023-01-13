@@ -16,12 +16,23 @@
         <ul class="main-menu--nav">
             {{ range .Site.Menus.main }}
             {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
-            {{ $active = or $active (eq .Name $current.Title) }}
-            {{ $active = or $active (and (eq .Name "Projects") (eq $current.Section "progetti")) }}
-            {{ $active = or $active (and (eq .Name "Tags") (eq $current.Section "tags")) }}
-
+            {{ $active = or $active (eq .Identifier $current.Title) }}
+            {{ $active = or $active (and (eq .Identifier "Projects") (eq $current.Section "progetti")) }}
+            {{ $active = or $active (and (eq .Identifier "Tags") (eq $current.Section "tags")) }}
                 <li class="main-menu--nav-link">
-                    <a href="{{ .URL }}" class="{{ if $active }}active{{ end }}">{{ .Name }}</a>
+                    <a href="{{ .URL | absLangURL }}" class="{{ if $active }}active{{ end }}">{{ .Name }}</a>
+                </li>
+            {{ end }}
+        </ul>
+
+        <ul class="main-menu--nav languages">
+            {{ range .AllTranslations }}
+            {{ $activeLang := eq .Language.LanguageName $current.Language.LanguageName }}
+                <li class="main-menu--nav-link">
+                    <a href="{{ .Permalink }}"
+                    class="{{ if $activeLang }}active{{ end }}">
+                            {{ .Language.LanguageName }}
+                    </a>
                 </li>
             {{ end }}
         </ul>

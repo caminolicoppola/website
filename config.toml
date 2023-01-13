@@ -1,33 +1,67 @@
-baseURL = 'https://www.caminolicoppola.com/'
-languageCode = 'it-IT'
-title = 'Caminoli Coppola Architetti'
+baseURL = 'https://caminolicoppola-pr-9.onrender.com/'
+defaultContentLanguage = 'en'
 theme = "scratch"
 paginate = '8'
 disableKinds = 'sitemap'
+defaultContentLanguageInSubdir = 'false'
 
-[menu]
-    [[menu.main]]
-    identifier = 'Projects'
-    name = 'Projects'
-    title = 'projects section'
-    url = '/progetti/'
+[languages]
+  [languages.it]
+    weight = 1
+    title = 'Caminoli Coppola Architetti'
+    description = "Lo studio Caminoli Coppola inizia nel 1998 la collaborazione, dedicandosi alla ristrutturazione e al consolidamento di edifici storici come ville, masserie, case coloniche, palazzine. Negli anni più recenti lo studio si è dedicato anche a nuove costruzioni, principalmente in Toscana ed in Puglia."
+    languageCode = 'it-IT'
+    languageName = 'Italiano'
+    [languages.it.menu]
+      [[languages.it.menu.main]]
+      identifier = 'Progetti'
+      name = 'Progetti'
+      title = 'sezione progetti'
+      url = '/progetti/'
+      weight = 2
+
+      [[languages.it.menu.main]]
+      identifier = 'Persone'
+      name = 'Persone'
+      title = 'sezione persone'
+      url = '/persone/'
+      weight = 3
+
+      [[languages.it.menu.main]]
+      identifier = 'Contatti'
+      name = 'Contatti'
+      title = 'sezione contatti'
+      url = '/contatti/'
+      weight = 4
+
+  [languages.en]
     weight = 2
+    title = 'Caminoli Coppola Architects'
+    description = "The Caminoli Coppola Architecture firm was founded in 1998, when a collaboration began concerning the renovation and consolidation of some historical buildings such as villas, farms, farmhouses, mansions, etc."
+    languageCode = 'en'
+    languageName = 'English'
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+      identifier = 'Projects'
+      name = 'Projects'
+      title = 'projects section'
+      url = '/progetti/'
+      weight = 2
 
-    [[menu.main]]
-    identifier = 'People'
-    name = 'People'
-    title = 'people section'
-    url = '/persone/'
-    weight = 3
+      [[languages.en.menu.main]]
+      identifier = 'People'
+      name = 'People'
+      title = 'people section'
+      url = '/persone/'
+      weight = 3
 
-    [[menu.main]]
-    identifier = 'Contacts'
-    name = 'Contacts'
-    title = 'Contacts section'
-    url = '/Contatti/'
-    weight = 4
+      [[languages.en.menu.main]]
+      identifier = 'Contacts'
+      name = 'Contacts'
+      title = 'Contacts section'
+      url = '/contatti/'
+      weight = 4
 
 
 [params]
 imageSrcset = [320, 640, 1280, 1600, 2000, 3000]
-description = "Lo studio Caminoli Coppola inizia nel 1998 la collaborazione, dedicandosi alla ristrutturazione e al consolidamento di edifici storici come ville, masserie, case coloniche, palazzine. Negli anni più recenti lo studio si è dedicato anche a nuove costruzioni, principalmente in Toscana ed in Puglia."
