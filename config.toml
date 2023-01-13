@@ -1,4 +1,4 @@
-baseURL = 'https://caminolicoppola-pr-9.onrender.com/'
+baseURL = 'https://www.caminolicoppola.com/'
 defaultContentLanguage = 'en'
 theme = "scratch"
 paginate = '8'
