@@ -5,6 +5,10 @@ weight: 11
 dataProgetto: "2004-2007"
 luogoProgetto: "Capannori (LU)"
 copyrightFotoProgetto: ""
+links:
+- link:
+    href: https://www.archilovers.com/projects/308600/palazzina-vestri.html
+    name: Archilovers
 ---
 The Palazzina di Vestri is a linear, lengthwise construction which was probably originally built as a hunting lodge, being in the perfect location, i.e., in the final part of the cultivated countryside, close to the Pizzorne mountain.
 It is certainly a very ancient construction dating back to around 1300/1400; before the works the building was in good structural condition but the walls, originally covered with plaster, were very hollow and compromised.
