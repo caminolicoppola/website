@@ -1,7 +1,7 @@
 ---
 title: "House of orange trees in Pietrasanta. Project"
 slug: 'casa-aranci-pietrasanta'
-weight: -1
+weight: 1
 dataProgetto: ""
 luogoProgetto: "Pietrasanta (LU)"
 copyrightFotoProgetto: ""
