@@ -4,6 +4,7 @@ theme = "scratch"
 paginate = '8'
 disableKinds = 'sitemap'
 defaultContentLanguageInSubdir = 'false'
+timeout = '180s'
 
 [languages]
   [languages.it]
