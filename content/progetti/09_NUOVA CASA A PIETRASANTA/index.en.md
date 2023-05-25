@@ -9,6 +9,9 @@ links:
 - link:
     href: https://www.archilovers.com/projects/308254/nuova-casa-a-pietrasanta.html
     name: Archilovers
+- link:
+    href: https://archello.com/it/project/new-house-in-pietrasanta
+    name: Archello
 ---
 We are exactly above Pietrasanta and the view extends to the pine forests and then to the sea.
 On the left not too far away, there is the Rocca di Sala with its "cavernous limestone” ashlar walls - a firm, ancient, untouchable presence that conveys a strong defensive character; yet, the texture of its masonries, the earthy colors of the cavernous limestone oxidized by time convey to us something closely related to the nature and material of the place.

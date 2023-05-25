@@ -5,6 +5,10 @@ weight: 4
 dataProgetto: "2002-2005; 2016-2020"
 luogoProgetto: "Arsina (LU)"
 copyrightFotoProgetto: ""
+links:
+- link:
+    href: https://www.archilovers.com/projects/308647/villa-miralunga.html
+    name: Archilovers
 ---
 Questa villa è un complesso edilizio monumentale del comune di Lucca con una ricca combinazione di giardini e spazi esterni, una combinazione di parti vecchie e parti nuove che si sono affiancate.
 La parte generatrice del complesso risale al basso medioevo e probabilmente era una palazzina di caccia, vicina alla città, al margine tra le zone coltivate e i boschi.
