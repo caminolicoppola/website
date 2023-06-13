@@ -5,7 +5,6 @@ weight: 1
 dataProgetto: ""
 luogoProgetto: "Pietrasanta (LU)"
 copyrightFotoProgetto: ""
-
 ---
 Questa casa si trova a Pietrasanta ma all’inizio della collina ed in fondo ad una piccola valletta. È alla fine di un’urbanizzazione per cui vede al di sopra alle case sottostanti ma la vista si apre verso la cittadina e sconfina fino al mare.
 La base del volume copre quasi completamente l’area edificabile data dalle distanze dei confini e dal solco del torrente.
