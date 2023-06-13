@@ -1,7 +1,7 @@
 ---
 title: "House in the Versiliana Park"
 slug: "casa-unifamiliare-parco-versiliana"
-weight: -2
+weight: -3
 dataProgetto: ""
 luogoProgetto: "Marina di Pietrasanta, Pietrasanta (Lucca)"
 copyrightFotoProgetto: ""

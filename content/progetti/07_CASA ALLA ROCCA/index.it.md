@@ -1,7 +1,7 @@
 ---
 title: "Casa la Rocca"
 slug: 'casa-la-rocca'
-weight: 8
+weight: -1
 dataProgetto: "2016-2021"
 luogoProgetto: "Arsina (LU)"
 copyrightFotoProgetto: ""

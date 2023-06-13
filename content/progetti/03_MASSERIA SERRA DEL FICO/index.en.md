@@ -1,7 +1,7 @@
 ---
 title: "Masseria Serra del Fico"
 slug: 'masseria-tricase'
-weight: -1 
+weight: -2 
 dataProgetto: "2016-2021"
 luogoProgetto: "Tricase (LE)"
 copyrightFotoProgetto: ""
