@@ -8,9 +8,8 @@ In the last few years, we have also been working on new constructions, mainly in
 ---
 The following Professionals are currently collaborating with our Studio:
 - Arch. Gioele Frateschi
-- Arch. Luca Fagnani
-- Arch. Simona Pollastrini
 - Arch. Andrea Tiberi
+- Arch. Roberta Cardazzi
 
 
 The Studio, as mentioned above, deals with the renovation of historic buildings and therefore has employed the following professionals:

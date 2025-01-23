@@ -8,9 +8,8 @@ Negli anni più recenti stiamo lavorando anche a nuove costruzioni principalment
 ---
 Collaborano attualmente con lo studio:
 - Arch. Gioele Frateschi
-- Arch. Luca Fagnani
-- Arch. Simona Pollastrini
 - Arch. Andrea Tiberi
+- Arch. Roberta Cardazzi
 
 
 Lo studio, come sopra accennato, si occupa di ristrutturazioni di edifici storici e pertanto si è avvalso dei seguenti professionisti:
