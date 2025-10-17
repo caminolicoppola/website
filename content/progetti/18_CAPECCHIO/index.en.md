@@ -1,5 +1,5 @@
 ---
-title: "Rural house a capecchio – Tenuta di Forci"
+title: "Rural house A Capecchio – Tenuta di Forci"
 slug: 'colonica-capecchio'
 weight: -4
 dataProgetto: "2023-2025"
