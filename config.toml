@@ -1,10 +1,10 @@
 baseURL = 'https://www.caminolicoppola.com/'
 defaultContentLanguage = 'en'
 theme = "scratch"
-paginate = '8'
+pagination.pagerSize = 10
 disableKinds = 'sitemap'
 defaultContentLanguageInSubdir = 'false'
-timeout = '180s'
+timeout = '360s'
 
 [languages]
   [languages.it]
