@@ -1,7 +1,7 @@
 ---
 title: "Nuova casa a Pietrasanta"
 slug: 'nuova-casa-pietrasanta'
-weight: -5
+weight: -4
 dataProgetto: ""
 luogoProgetto: "Pietrasanta (LU)"
 copyrightFotoProgetto: ""

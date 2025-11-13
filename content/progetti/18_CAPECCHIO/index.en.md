@@ -1,7 +1,7 @@
 ---
 title: "Rural house A Capecchio – Tenuta di Forci"
 slug: 'colonica-capecchio'
-weight: -4
+weight: -5
 dataProgetto: "2023-2025"
 luogoProgetto: "Lucca"
 links:
